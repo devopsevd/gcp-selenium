@@ -28,7 +28,7 @@ public class GoogleStartPageTest {
 		DesiredCapabilities capability = DesiredCapabilities.chrome();
 		URL gridUrl = new URL(gridServerUrl);
 		driver = new RemoteWebDriver(gridUrl, capability);
-		driver.get("http://tomcat:10000");
+		driver.get("http://10.144.2.237:10000");
 	}
 
 	@After
