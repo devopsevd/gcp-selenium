@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(plugin={"junit:junitResult.xml"},
                 features= {"src/test/java/de/mb/selenium/"})
 
-public class FunctionalTest {
+public class functionalTest {
 
 }
 
