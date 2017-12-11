@@ -7,7 +7,7 @@ import com.hpe.alm.octane.OctaneCucumber;
 import cucumber.api.CucumberOptions;
 
 @RunWith(OctaneCucumber.class)
-@CucumberOptions(plugin={"junit:junitResult.xml"},
+@CucumberOptions(format={"json:target/cucumber.json"},
                 features= {"src/test/java/de/mb/selenium/"})
 
 public class functionalTest {
